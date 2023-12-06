@@ -44,31 +44,31 @@ if (!empty($_SESSION["user"])) {
                 </li>
                 <ul class="menu-links">
                     <li class="nav-link">
-                        <a href="#">
+                    <a href="/stockfull/admin/">
                             <i class='bx bxs-home icon'></i>
                             <span class="text nav-text">Dashboard</span>
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="product">
                             <i class='bx bxs-store icon'></i>
                             <span class="text nav-text">Product Stock</span>
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">
+                    <a href="order">
                             <i class='bx bxs-paper-plane icon'></i>
                             <span class="text nav-text">Order</span>
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">
+                    <a href="provider">
                             <i class='bx bxs-truck icon'></i>
                             <span class="text nav-text">Provider</span>
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">
+                    <a href="user">
                             <i class='bx bxs-user icon'></i>
                             <span class="text nav-text">User</span>
                         </a>
@@ -80,7 +80,7 @@ if (!empty($_SESSION["user"])) {
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">
+                    <a href="log">
                             <i class='bx bx-history icon'></i>
                             <span class="text nav-text">Activity Log</span>
                         </a>
@@ -92,7 +92,7 @@ if (!empty($_SESSION["user"])) {
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a href="#">
+                    <a href="../">
                             <i class='bx bxs-cart icon'></i>
                             <span class="text nav-text">Product View</span>
                         </a>
@@ -123,7 +123,4 @@ if (!empty($_SESSION["user"])) {
             </div>
         </div>
     </nav>
-    <script src="./js/script.js"></script>
-</body>
 
-</html>
