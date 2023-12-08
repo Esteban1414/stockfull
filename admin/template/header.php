@@ -26,7 +26,7 @@ if (!empty($_SESSION["user"])) {
         <header>
             <div class="image-text">
                 <span class="image">
-                    <img src="./assets/logo sportX-2.png" alt="logo">
+                    <img src="./assets/SF_white.png" alt="logo">
                 </span>
                 <div class="text header-text">
                     <span class="name">STOCKFULL</span>
@@ -44,7 +44,7 @@ if (!empty($_SESSION["user"])) {
                 </li>
                 <ul class="menu-links">
                     <li class="nav-link">
-                    <a href="/stockfull/admin/">
+                        <a href="/stockfull/admin/">
                             <i class='bx bxs-home icon'></i>
                             <span class="text nav-text">Dashboard</span>
                         </a>
@@ -56,23 +56,30 @@ if (!empty($_SESSION["user"])) {
                         </a>
                     </li>
                     <li class="nav-link">
-                    <a href="order">
+                        <a href="order">
                             <i class='bx bxs-paper-plane icon'></i>
                             <span class="text nav-text">Order</span>
                         </a>
                     </li>
                     <li class="nav-link">
-                    <a href="provider">
+                        <a href="provider">
                             <i class='bx bxs-truck icon'></i>
                             <span class="text nav-text">Provider</span>
                         </a>
                     </li>
+
                     <li class="nav-link">
-                    <a href="user">
+                        <a>
                             <i class='bx bxs-user icon'></i>
                             <span class="text nav-text">User</span>
+                            <i class='bx bx-chevron-right dropdown'></i>
                         </a>
                     </li>
+                    <div class="sub-menu">
+                        <a href="" class="text sub-item">Active</a>
+                        <a href="" class="text sub-item">Inactive</a>
+                        <a href="" class="text sub-item">Role</a>
+                    </div>
                     <li class="nav-link">
                         <a href="#">
                             <i class='bx bxs-group icon'></i>
@@ -80,11 +87,17 @@ if (!empty($_SESSION["user"])) {
                         </a>
                     </li>
                     <li class="nav-link">
-                    <a href="log">
+                        <a>
                             <i class='bx bx-history icon'></i>
                             <span class="text nav-text">Activity Log</span>
+                            <i class='bx bx-chevron-right dropdown'></i>
                         </a>
                     </li>
+                    <div class="sub-menu">
+                        <a href="" class="text sub-item">Users</a>
+                        <a href="" class="text sub-item">Products</a>
+                        <a href="" class="text sub-item">Provider</a>
+                    </div>
                     <li class="nav-link">
                         <a href="#">
                             <i class='bx bxs-bell icon'></i>
@@ -92,7 +105,7 @@ if (!empty($_SESSION["user"])) {
                         </a>
                     </li>
                     <li class="nav-link">
-                    <a href="../">
+                        <a href="../">
                             <i class='bx bxs-cart icon'></i>
                             <span class="text nav-text">Product View</span>
                         </a>
@@ -123,4 +136,3 @@ if (!empty($_SESSION["user"])) {
             </div>
         </div>
     </nav>
-
