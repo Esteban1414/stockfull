@@ -8,7 +8,7 @@
 }
 
 :root {
-  --body-color: #e4e9f7;
+  --body-color: #f2f2f2;
   --sidebar-color: #fff;
   --primary-color: #333333;
   --primary-color-light: #f6f5ff;
@@ -243,8 +243,8 @@ body.dark .menu-bar .mode i.moon {
 body.dark .switch::before {
   left: 24px;
 }
-/* ========================================================== */
 
+/* =========================== Dropdown =========================== */
 .sub-menu a {
   display: none;
 }
@@ -289,6 +289,7 @@ body.dark .sidebar .dropdown {
 body.dark .sidebar a:hover .dropdown {
   color: var(--text-color);
 }
+/* ============================End-Sidebar============================== */
 
 /* =========================== Index =========================== */
 .home {
@@ -308,4 +309,42 @@ body.dark .sidebar a:hover .dropdown {
 .sidebar.close ~ .home {
   left: 88px;
   width: calc(100% - 88px);
+}
+
+/* ============================== DataTable ==============================0 */
+.dataTables_wrapper {
+  margin-top: 50px;
+  padding: 50px;
+  margin-left: 100px;
+}
+
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_processing,
+.dataTables_wrapper .dataTables_paginate {
+  color: inherit;
+}
+
+body.dark .table,
+body.dark .dataTables_wrapper {
+  border-color: #fff;
+  color: #fff;
+}
+
+body.dark {
+  --dt-row-hover: 255, 255, 255;
+}
+
+body.dark .dataTables_wrapper .dataTables_filter input,
+body.dark .dataTables_wrapper .dataTables_length select {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: #18191a;
+}
+body.dark table.dataTable.row-border > tbody > tr > th,
+body.dark table.dataTable.row-border > tbody > tr > td,
+body.dark table.dataTable.display > tbody > tr > th,
+body.dark table.dataTable.display > tbody > tr > td {
+  border-top: 1px solid;
+  border-color: #fff;
 }
