@@ -1,7 +1,0 @@
-RewriteEngine On
-# '$1' Hace referencia a la primer expresion en '/([0-9]+)$', para poner otra deberia de agregar /() despues del $ y &param_2=$2 despues de $1
-RewriteRule ^product product.php
-RewriteRule ^user user.php
-RewriteRule ^provider provider.php
-RewriteRule ^order order.php
-RewriteRule ^log log.php
